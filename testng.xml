@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Shivank Mishra/IdeaProjects/Amazon">
+        <classes>
+            <class name="com.amazonTest.DashboardTest">
+                <methods><include name="dashboardPage"/>
+                </methods>
+            </class>
+            <class name="com.amazonTest.ProductTest">
+                <methods>
+                    <include name="selectProductItem"/>
+                </methods>
+            </class>
+            <class name="com.amazonTest.CartTest">
+                <methods>
+                    <include name="checkoutTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
